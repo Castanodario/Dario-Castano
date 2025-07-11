@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Dario Castaño Estilista</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; line-height:1.6; color:#333; }
+    header { background:#222; color:#fff; padding:30px 20px; text-align:center; }
+    header h1 { margin:0; font-size:2em; }
+    nav a { margin:0 10px; color:#fff; text-decoration:none; }
+    section { padding:40px 20px; max-width:900px; margin:0 auto; }
+    .services, .gallery { display: grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:20px; }
+    .service, .gallery img { border:1px solid #ccc; border-radius:8px; padding:15px; }
+    footer { background:#222; color:#eee; text-align:center; padding:20px; }
+    form input, form textarea { width:100%; padding:10px; margin:5px 0 15px; border:1px solid #aaa; border-radius:4px; }
+    form button { background:#222; color:#fff; border:none; padding:12px 20px; border-radius:4px; cursor:pointer; }
+    form button:hover { background:#444; }
+  </style>
+</head>
+<body>
+
+  <header id="inicio">
+    <h1>Dario Castaño</h1>
+    <p>Prótesis capilar • Corte de cabello • Tinturado</p>
+    <nav>
+      <a href="#sobre">Sobre mí</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#galeria">Galería</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <section id="sobre">
+    <h2>Sobre mí</h2>
+    <p>Soy Dario Castaño, estilista con más de 15 años de experiencia y 12 especializado en prótesis capilares de alta calidad en Medellín. Mi objetivo es ayudarte a recuperar confianza con soluciones naturales e indetectables adaptadas a tu estilo de vida.</p>
+  </section>
+
+  <section id="servicios">
+    <h2>Servicios</h2>
+    <div class="services">
+      <div class="service">
+        <h3>Prótesis capilar</h3>
+        <p>Asesoría gratuita y sistema personalizado según estilo y densidad capilar.</p>
+      </div>
+      <div class="service">
+        <h3>Corte de cabello</h3>
+        <p>Corte moderno y adaptado a tu look preferido.</p>
+      </div>
+      <div class="service">
+        <h3>Tinturado</h3>
+        <p>Coloración profesional con productos de calidad.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="galeria">
+    <h2>Galería</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Antes+y+Después" alt="Antes y Después">
+      <img src="https://via.placeholder.com/300x200?text=Prótesis+Natural" alt="Prótesis natural">
+      <img src="https://via.placeholder.com/300x200?text=Corte+Moderno" alt="Corte moderno">
+      <img src="https://via.placeholder.com/300x200?text=Coloración" alt="Coloración">
+    </div>
+  </section>
+
+  <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Ubicación: Laureles, Medellín, Antioquia, Colombia</p>
+    <p>📞 Teléfono / WhatsApp: <a href="tel:+573122880286">312 2880286</a></p>
+    <form action="#" method="get">
+      <input type="text" name="nombre" placeholder="Tu nombre" required>
+      <input type="email" name="email" placeholder="Tu correo" required>
+      <textarea name="mensaje" rows="4" placeholder="¿En qué puedo ayudarte?" required></textarea>
+      <button type="submit">Enviar mensaje</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Sígueme en redes sociales 📱</p>
+    <p><!-- Aquí puedes agregar iconos y enlaces a Instagram, Facebook, etc. --></p>
+    <p>&copy; 2025 Dario Castaño</p>
+  </footer>
+
+</body>
+</html>
